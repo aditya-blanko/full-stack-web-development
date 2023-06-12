@@ -1,0 +1,40 @@
+body{
+    color:darksalmon;
+    background-color:blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*CLASS SELECTOR*/
+.first {
+    color:darkmagenta;
+}
+
+/* ID SELECTOR */
+#eklist {
+    background-color: blueviolet;
+    width: fit-content;
+}
+
+/* LARGE */
+.large{
+    font-size: large;
+}
+
+/* ATTRIBUTE SELECTOR */
+a[href="youtube.com"]{
+    color:chartreuse
+}
+
+/*PSEUDO SELECTOR*/
+.first:hover{
+    color: azure;
+}
+
+/* UNIVERSAL SELECTOR */
+*{
+    margin:3%;
+}
+input[type="text"]{
+    color: aqua;
+}
