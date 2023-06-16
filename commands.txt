@@ -1,9 +1,0 @@
-#daily commands
-
-git add .
-git commit -m "daily commit"
-git push origin master
-
-#for clone(in cmd)
-
-git clone 'path'
